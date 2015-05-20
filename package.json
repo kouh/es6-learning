@@ -1,0 +1,23 @@
+{
+  "name": "es6-learning",
+  "version": "1.0.0",
+  "description": "ES6 practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouh/es6-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kouh/es6-learning/issues"
+  },
+  "homepage": "https://github.com/kouh/es6-learning#readme",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0"
+  }
+}
