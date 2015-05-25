@@ -1,17 +1,17 @@
 
 var arr = [1,2,3];
-document.write(arr.map(v => v * 2) + '<br>');
-document.write(arr.map((v,i) => v + i) + '<br>');
+console.log(arr.map(v => v * 2));
+console.log(arr.map((v,i) => v + i));
 
 arr.forEach(v => {
-  document.write(v + '<br>');
+  console.log(v);
 });
 
 var dog = {
   msg: "bow!",
   hello() {
     setInterval(() => {
-      document.querySelector('body').innerHTML += this.msg + '<br>';
+      console.log(this.msg);
     }, 1000);
   }
 };

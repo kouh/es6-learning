@@ -1,4 +1,4 @@
-document.querySelector('body').innerHTML += `
+console.log(`
 <div>
   <ul>
     <li>Item1</li>
@@ -8,4 +8,4 @@ document.querySelector('body').innerHTML += `
     <li>Item5</li>
   </ul>
 </div>    
-`;
+`);
